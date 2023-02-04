@@ -1,0 +1,47 @@
+footer {
+    background-color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 15px;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bolder;
+    color: whitesmoke;
+    background-color: black;
+ 
+   
+}
+
+p{
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    color: black;
+    position: relative;
+    left: 25px;
+    top: 35px;
+    background-color: whitesmoke; opacity: 0.9; 
+    padding: 5px;
+    margin-right: 40px;
+}
+
+.hero {
+    background: url(/images/fondo/2.jpg);
+    background-size: cover;
+    height: 50vh;
+    min-height: 610px;
+    align-content: space-around;
+ 
+    
+
+}
+
+.col {
+    margin-top: -5rem;
+    position: relative;
+}

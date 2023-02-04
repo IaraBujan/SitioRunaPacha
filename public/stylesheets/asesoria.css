@@ -1,0 +1,100 @@
+footer {
+    background-color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 15px;
+    position: relative;
+ 
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bolder;
+    color: whitesmoke;
+    background-color: black;
+    margin-top: 2rem;
+    position: relative;
+ 
+   
+}
+
+p{
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    color: black;
+    position: relative;
+    left: 25px;
+    padding: 7px;
+   
+   
+}
+
+body {
+  
+    background: url(/images/fondo/asesoria\ 2.jpg);
+    background-size: cover;
+    height: 50vh;
+    min-height: 600px;
+  
+}
+
+.col {
+    margin-top: 5rem;
+    background: url;
+  
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bolder;
+    color: whitesmoke;
+    background-color: black;
+    margin-top: 5rem;
+    position: relative;
+
+}
+
+.columna {
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}
+
+h4  {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+    color: whitesmoke;
+    background-color: black;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+
+}
+h5  {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bolder;
+    color: whitesmoke;
+    margin-bottom: 0.9rem;
+    
+
+}
+
+.row.g-3-mover {
+    margin-left: 23rem;
+    position: relative;
+}
+
+.col-12-mover {
+    margin-top: 1rem;
+    position: relative;
+    margin-bottom: 1rem;
+}
+

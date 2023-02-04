@@ -1,0 +1,83 @@
+footer {
+    background-color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 15px;
+   
+ 
+}
+
+.collogo {
+    margin-top: 5rem;
+  
+}
+
+p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    color: blue;
+}
+
+
+
+.botonaventurate{
+    margin-left: 35rem;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: black;
+    
+}
+
+body {
+    background-image: url(/images/fondo/1.jpg);
+    background-size: cover;
+    height: 50vh;
+    min-height: 600px;
+  
+}
+
+.nav {
+    
+    margin-bottom: 1rem;
+    font-weight: bolder;
+    background-color: rgb(202, 201, 201);
+}
+
+h5 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+h3 {
+
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: blue;
+    background-color:rgb(202, 201, 201); 
+
+}
+
+h4 {
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 38px;
+    color: black;  
+} 
+
+h6 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: black;  
+}
+
+.margen {
+    margin-bottom: 1rem;
+}

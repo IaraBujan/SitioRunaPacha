@@ -1,0 +1,83 @@
+footer {
+    background-color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 15px;
+    position: relative;
+ 
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bolder;
+    color: whitesmoke;
+    background-color: black;
+ 
+   
+}
+
+p{
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    color: black;
+    position: relative;
+    left: 25px;
+    top: 30px;
+    padding: 7px;
+    margin-right: 40px;
+   
+}
+
+body {
+    background: url(/images/fondo/1.jpg);
+    background-size: cover;
+    height: 50vh;
+    min-height: 640px;
+  
+}
+
+.col {
+    margin-top: 5rem;
+  
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bolder;
+    color: whitesmoke;
+    background-color: black;
+    margin-top: 0.5rem;
+
+}
+
+.columna {
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}
+
+h4  {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bolder;
+    color: whitesmoke;
+    background-color: black;
+    margin-top: 0.5rem;
+
+}
+h5  {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bolder;
+    color: whitesmoke;
+    margin-bottom: 0.9rem;
+    
+
+}
