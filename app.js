@@ -6,6 +6,8 @@ var logger = require('morgan');
 
 require("dotenv").config();
 
+
+var session = require('express-session');
 var indexRouter = require('./routes/index');
 var ConcursoRouter = require('./routes/Concurso');
 var NuestraHistoriaRouter = require('./routes/NuestraHistoria');
@@ -19,6 +21,8 @@ var FilosofiaRouter = require('./routes/Filosofia');
 var PoesiaRouter = require('./routes/Poesia');
 var AutoayudaRouter = require('./routes/Autoayuda');
 var SolicitaAsesoriaRouter = require('./routes/SolicitaAsesoria');
+var loginRouter = require('./routes/admin/login');
+var adminRouter = require('./routes/admin/novedades');
 
 var app = express();
 
@@ -33,6 +37,25 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.use(session({
+  secret: 'asda21231887sdasdasjfhodn3215641wef',
+  resave: false,
+  saveUninitialized: true
+}))
+
+secured = async (req, res, next) => {
+  try {
+    console.log(req.session.id_usuario);
+     if(req.session.id_usuario) {
+      next();
+    } else {
+      res.redirect('/admin/login')
+    }
+  } catch (error) {
+    console.log(error);
+  }
+}
+
 app.use('/', indexRouter);
 app.use("/Concurso", ConcursoRouter)
 app.use("/NuestraHistoria", NuestraHistoriaRouter)
@@ -46,7 +69,9 @@ app.use("/Filosofia", FilosofiaRouter)
 app.use("/Poesia", PoesiaRouter)
 app.use("/Autoayuda", AutoayudaRouter)
 app.use("/SolicitaAsesoria", SolicitaAsesoriaRouter)
- 
+app.use('/admin/login', loginRouter);
+app.use('/admin/novedades', secured, adminRouter);
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

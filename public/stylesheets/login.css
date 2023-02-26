@@ -3,6 +3,7 @@ footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
     font-size: 15px;
+    margin-top: 20rem;
    
  
 }
@@ -17,7 +18,7 @@ p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
     font-size: 30px;
-    color: blue;
+    color: whitesmoke;
 }
 
 
@@ -80,4 +81,8 @@ h6 {
 
 .margen {
     margin-bottom: 1rem;
+}
+
+.mover {
+    margin-top: 1rem;
 }
